@@ -8,7 +8,8 @@ public class ex5 {
 
         Scanner leia = new Scanner(System.in);
 
-        System.out.println("Digite" + "quantas horas você ficou" + "no estacionamento:");
+        System.out.println("Digite" +
+                "quantas horas você ficou" + "no estacionamento:");
         double horas = leia.nextDouble();
 
         System.out.println(Math.ceil(horas));
