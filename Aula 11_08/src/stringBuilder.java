@@ -1,8 +1,8 @@
-public class exemplo1 {
+public class stringBuilder {
 
     static void main(){
 
-    int tamanho = 10;
+        int tamanho = 10;
 
         //Declarando um vetor
         String[] nomes = new String[tamanho];
@@ -16,8 +16,5 @@ public class exemplo1 {
         for (String nome: nomes){
             System.out.println(nome);
         }
-
-        //Removendo Fabio
-
     }
 }
