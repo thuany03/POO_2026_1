@@ -25,4 +25,5 @@ public class Hospedagem {
         }
         return total;
     }
+
 }
