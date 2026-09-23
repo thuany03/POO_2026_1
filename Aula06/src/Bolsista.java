@@ -10,8 +10,9 @@ public class Bolsista extends Aluno{
         return desconto;
     }
 
-    public double calcularMensalidadeBolsista(){
-        return getMensalidade()-(getMensalidade()*getDesconto());
+    @Override
+    public double calcularMensalidade(){
+        return Mensalidade-(Mensalidade*desconto);
     }
 
 }
